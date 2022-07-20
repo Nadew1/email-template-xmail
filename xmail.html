@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>xmail</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+   integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+   <link rel="stylesheet" href="styles.css">
+ 
+  
+</head>
+<body>
+ 
+   <div class="container-fluid my-container">
+       <div class="row my-row">
+          
+               <nav>
+                   <input type="checkbox" id="check">
+                   <label for="check" class="checkbtn">
+                     <i class="fas fa-bars"></i>
+                   </label>
+ 
+                   <label class="logo">XMAIL</label>
+                   <ul>
+                       <li><a href="#">Home</a></li>
+                       <li><a href="#">Inbox</a></li>
+                       <li><a href="#">Sent</a></li>
+                       <li><a href="#">Draft</a></li>
+                       <li><a href="#">Spam</a></li>
+                       <li><a href="#">Trash</a></li>
+                   </ul>
+               </nav>
+    <!-- email previews -->
+    <div class="center-col col-12 col-md-4 col-lg-4">
+       <div class="card notification-card border-0">
+           <div class="card-body">
+               <span class="notification-date">July 1, 2022 <span class="time">3:00 PM</span> </span>
+               <div class="notification-title">Important Subject</div>
+               <p class="notification-content">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Possimus placeat harum explicabo, perferendis vitae alias?</p>
+           </div>
+       </div>
+       <div class="card notification-card border-0 mt-3">
+           <div class="card-body">
+               <span class="notification-date">July 2, 2022</span>
+               <div class="notification-title">Urgent advertisement!</div>
+               <p class="notification-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo
+                   dolores amet incidunt excepturi, tempore placeat. Impedit sit ullam dolorum repellendus.</p>
+           </div>
+       </div>
+       <div class="card notification-card border-0 mt-3">
+           <div class="card-body">
+               <span class="notification-date">July 3, 2022</span>
+               <div class="notification-title">Your SSN has been cancelled</div>
+               <p class="notification-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo
+                   dolores amet incidunt excepturi, tempore placeat. Impedit sit ullam dolorum repellendus.</p>
+           </div>
+       </div>
+       <div class="card notification-card border-0 mt-3">
+           <div class="card-body">
+               <span class="notification-date">July 4, 2022</span>
+               <div class="notification-title">Your SSN has been cancelled</div>
+               <p class="notification-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo
+                    dolores amet incidunt excepturi, tempore placeat. Impedit sit ullam dolorum repellendus.</p>
+           </div>
+       </div>
+       <div class="card notification-card border-0 mt-3">
+           <div class="card-body">
+               <span class="notification-date">July 5, 2022</span>
+               <div class="notification-title">You've won a free room</div>
+               <p class="notification-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo
+                   dolores amet incidunt excepturi, tempore placeat. Impedit sit ullam dolorum repellendus.</p>
+           </div>
+       </div>
+       <div class="card notification-card border-0 mt-3">
+           <div class="card-body">
+               <span class="notification-date">July 5, 2022</span>
+               <div class="notification-title">Other shows you might like</div>
+               <p class="notification-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo
+                   dolores amet incidunt excepturi, tempore placeat. Impedit sit ullam dolorum repellendus.</p>
+           </div>
+       </div>
+       <div class="card notification-card border-0 mt-3">
+           <div class="card-body">
+               <span class="notification-date">July 6, 2022</span>
+               <div class="notification-title">Your SSN has been cancelled</div>
+               <p class="notification-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo
+                   dolores amet incidunt excepturi, tempore placeat. Impedit sit ullam dolorum repellendus.</p>
+           </div>
+       </div>
+   </div>
+   <!-- open email viewer -->
+   <div class="col-12 col-md-8 col-lg-6">
+       <div class="container">
+           <!-- open email header -->
+           <div class="row mt-3">
+               <div class="col">To: me@email.com<br>From: you@email.com<br>
+               </div>   
+           </div>
+          
+           <!-- open email filler -->
+           <div class="row email-content mt-5">
+               <div class="col">
+                   <div class="email-subject h3 pt-1">Urgent Advertisement!</div>
+                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime ratione, sit error incidunt voluptatum,
+                       vitae non nesciunt sequi voluptatibus labore aliquam voluptatem corporis atque veritatis necessitatibus iusto,
+                       veniam unde iste sint laborum! Voluptatem nam maiores totam hic non aperiam, eum ut reiciendis voluptatibus eius voluptates magni similique. Odit, optio quis.</p>
+               </div>
+           </div>
+ 
+           <!-- open email reply field -->
+           <form action="" method="">
+               <div class="form-group reply-box-container border rounded d-grid">
+                   <textarea class="form-control border-0" rows="6"></textarea>
+                   <button class="btn btn-outline-success mt-1">Reply</button>
+               </div>
+           </form>
+       </div>
+   </div>
+</div>
+         
+       </div>
+   </div>
+ 
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
