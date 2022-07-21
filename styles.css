@@ -9,7 +9,7 @@
     font-family: montserrat;
   }
   nav{
-    background: #00e66b;
+    background: #7BB2D9;
     height: 70px;
     width: 100%;
   }
@@ -37,7 +37,7 @@
     text-transform: uppercase;
   }
   a.active,a:hover{
-    background: #ceff1b;
+    background: #e1e2dc;
     transition: .5s;
   }
   .checkbtn{
@@ -85,7 +85,7 @@
     }
     a:hover,a.active{
       background: none;
-      color: #0082e6;
+      color: #eceeef;
     }
     #check:checked ~ ul{
       left: 0;
@@ -96,7 +96,7 @@
     background-size: cover;
     height: calc(100vh - 80px);
   }
- .time{
-    text-align: right;
-    padding-right: 20px;
+ .time{ 
+    left: 60%;
+    position: relative;
 }
